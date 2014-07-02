@@ -1,0 +1,4 @@
+Steve Choo
+To compile: Just type "make" in the directory the source file is located
+When using the redirection (myuniq << EOF, then typing sentences), compared to uniq,
+   they output the same.

@@ -1,0 +1,11 @@
+Basic idea:
+
+use hash table for words.
+
+words are structs which contain the following data:
+   char *word; //the actual word
+   int occurrences; //number of occurences of this word
+   int isActive; //don't think is needed, but is used to tell if it's present or not in the hash table
+
+to resolve collision issue, open addressing with quadratic probing can be used. however, an iterator would need
+   to be implemented. which might suck.

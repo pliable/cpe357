@@ -1,0 +1,17 @@
+Steve Choo
+Run provided make to compile
+
+I *believe* this program produces valid Huffman codes. I am able to 
+produce a tree, and iterate through the entire tree, printing the
+contents whether it's a leaf or an inner node just fine, and in
+comparing those results to hand worked out huffman encodings, they
+matched.
+
+However, I did not
+manage to implement a secondary sort on the linked list, therefore,
+results will be different from your implementation, thus failing most
+tests that compare with your version of htable. I figured this out
+by realizing that characters with the same count get inserted into
+the linked list correctly, however, when the huffman algorithm
+is run through, because characters with the same count are in different
+order (by their char), they will be combined with different counts.

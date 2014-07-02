@@ -1,0 +1,12 @@
+Steve Choo (schoo)
+run make to compile
+
+I didn't get to implement proper signal handling, but I believe I handled
+signals for child processes.
+
+It's also very hacky, and one huge source file, and I think I already
+explained I've been very anxious about this assignment, so in starting
+it so late, it's...very hacky.
+
+But it actually works to an extent, and in playing around with it,
+it's very cool :)

@@ -1,0 +1,7 @@
+basically you want to opendir(".");
+loop all files in dir {
+   if dir {
+      recurse()
+   } else {
+      it's a file zomg
+   }

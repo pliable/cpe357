@@ -1,0 +1,23 @@
+Steve Choo (schoo)
+Run "make" or "make parseline" to compile
+
+If this finds an error while parsing, it will print the entire command
+line instead of just the command. For example:
+
+% parseline
+line: ls < a < b | more
+ls: bad input redirection
+
+This is how your program prints it out, while mine prints it out like
+so:
+
+% parseline
+line: ls < a < b | more
+ls < a < b : bad input redirection
+
+This is due to my logic being redonkulously insane.
+
+Also, I apologize for not splitting this into multiple source files. I
+have a terrible habit of not doing that :(
+
+Please go easy on me oh god oh god
